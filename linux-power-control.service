@@ -1,0 +1,12 @@
+[Unit]
+Description=Simple server to remotely shutdown or restart your linux machine via post requests.
+After=network.target
+
+[Service]
+Type=simple
+User=<YOUR USERNAME>
+ExecStart=/usr/bin/node /path/to/linux-power-control/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

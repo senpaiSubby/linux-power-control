@@ -1,0 +1,15 @@
+{
+  "name": "linux-power-control",
+  "version": "1.0.0",
+  "description": "https://github.com/callmekory/linux-remote-power",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "callmekory",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.3"
+  }
+}
