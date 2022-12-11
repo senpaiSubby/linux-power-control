@@ -9,7 +9,7 @@
   "author": "callmekory",
   "license": "GNU GPLv3",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "shelljs": "^0.8.3"
   }
 }
